@@ -20,7 +20,7 @@
 🛠 راهنمای نصب
 برای نصب اسکریپت، کافیست با دسترسی روت (Root) وارد ترمینال سرور خود شده و دستور زیر را اجرا کنید:
 ```bash
-sudo bash -c "$(curl -sL "https://raw.githubusercontent.com/SiNaKeEn/NexusNet/Node/install.sh")"
+sudo bash -c "$(curl -sL "https://raw.githubusercontent.com/SiNaKeEn/NexusNet/Multi-Node/install.sh")"
 ```
 
 
