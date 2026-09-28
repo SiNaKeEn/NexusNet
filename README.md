@@ -33,7 +33,8 @@ sudo bash -c "$(curl -sL "https://raw.githubusercontent.com/SiNaKeEn/NexusNet/No
 در صورتی که مراحل نصب به پایان رسید یا از منوی برنامه خارج شدید، نیازی به اجرای مجدد دستور نصب نیست. برای دسترسی دوباره به منوی مدیریت ابزار، کافیست کلمه زیر را در ترمینال تایپ و اینتر کنید:
 
 ```bash
-nexusnet```
+nexusnet
+```
 
 
 ---
@@ -42,6 +43,11 @@ nexusnet```
 
 برای اطلاع از آخرین بروزرسانی‌ها، دریافت پشتیبانی و مشاهده آموزش‌های اسکریپت، می‌توانید از طریق لینک‌های زیر با ما در ارتباط باشید:
 
+<div dir="ltr">
+![Telegram Channel](https://img.shields.io/badge/Channel-NexusNet_Plus-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
+![Telegram Bot](https://img.shields.io/badge/Bot-NexusNet_PlusBot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
+![Support](https://img.shields.io/badge/Support-NexusNet_Sup-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
+</div>
 * 📢 کانال تلگرام: @NexusNet_Plus
 * 🤖 ربات تلگرام: @NexusNet_PlusBot
 * 👨‍💻 پشتیبانی: @NexusNet_Sup
