@@ -21,7 +21,7 @@
 
 برای نصب اسکریپت، کافیست با دسترسی روت (Root) وارد ترمینال سرور خود شده و دستور زیر را اجرا کنید:
 
- sudo bash -c "$(curl -sL "https://raw.githubusercontent.com/SiNaKeEn/NexusNet/Node/install.sh")"
+ ```sudo bash -c "$(curl -sL "https://raw.githubusercontent.com/SiNaKeEn/NexusNet/Node/install.sh")"```
 
 
 
@@ -31,7 +31,7 @@
 
 در صورتی که مراحل نصب به پایان رسید یا از منوی برنامه خارج شدید، نیازی به اجرای مجدد دستور نصب نیست. برای دسترسی دوباره به منوی مدیریت ابزار، کافیست کلمه زیر را در ترمینال تایپ و اینتر کنید:
 
-nexusnet
+```nexusnet```
 
 
 ---
