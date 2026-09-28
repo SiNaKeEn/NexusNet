@@ -1,6 +1,9 @@
 # 🚀 اسکریپت NexusNet
 
 یک ابزار ساده، سریع و کاربردی برای مدیریت و راه‌اندازی چندین نود Tor با قابلیت انتخاب کشور Exit Node.
+![Version](https://img.shields.io/badge/Version-v1.0-blue)
+![Language](https://img.shields.io/badge/Language-Bash-green)
+![Platform](https://img.shields.io/badge/Platform-Linux-orange)
 
 ---
 
