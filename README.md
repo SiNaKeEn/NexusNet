@@ -42,11 +42,7 @@ nexusnet
 ## 📞 راه‌های ارتباطی
 
 برای اطلاع از آخرین بروزرسانی‌ها، دریافت پشتیبانی و مشاهده آموزش‌های اسکریپت، می‌توانید از طریق لینک‌های زیر با ما در ارتباط باشید:
-<div dir="ltr">
-![Telegram Channel](https://img.shields.io/badge/Channel-NexusNet_Plus-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
-![Telegram Bot](https://img.shields.io/badge/Bot-NexusNet_PlusBot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
-![Support](https://img.shields.io/badge/Support-NexusNet_Sup-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
-</div>
+
 * 📢 کانال تلگرام: @NexusNet_Plus
 * 🤖 ربات تلگرام: @NexusNet_PlusBot
 * 👨‍💻 پشتیبانی: @NexusNet_Sup
@@ -57,11 +53,4 @@ nexusnet
 ارتقا یافته توسط SiNa (KeEn)
 
 
-📞 راه‌های ارتباطی
-برای اطلاع از آخرین بروزرسانی‌ها، دریافت پشتیبانی و مشاهده آموزش‌های ویدیویی اسکریپت، می‌توانید از طریق لینک‌های زیر با ما در ارتباط باشید:
-<div dir="ltr">
-![Telegram Channel](https://img.shields.io/badge/Channel-T__Sinn-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
-![Telegram Bot](https://img.shields.io/badge/Bot-T__Sin__bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
-![Support](https://img.shields.io/badge/Support-T__sin__support-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
-![YouTube](https://img.shields.io/badge/YouTube-Sin__cz-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-</div>
+📞
