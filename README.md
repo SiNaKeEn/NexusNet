@@ -1,8 +1,8 @@
-# 🚀 NexusNet Node
+# 🚀 NexusNet Multi Location Node
 
 > یک ابزار ساده، سریع و کاربردی برای مدیریت، راه‌اندازی و پیکربندی سرور.
 
-![Version](https://img.shields.io/badge/Version-v2.0-blue)
+![Version](https://img.shields.io/badge/Version-v1.1-blue)
 ![Language](https://img.shields.io/badge/Language-Bash-green)
 ![Platform](https://img.shields.io/badge/Platform-Linux-orange)
 
@@ -28,7 +28,7 @@
 
 نسخه فعلی با حفظ پایه و ساختار اصلی پروژه، توسط:
 
-**SiNa (KeEn)**
+**SiNa KeEn**
 
 ارتقا داده شده و شامل تغییرات، بهبودها و قابلیت‌های جدید می‌باشد.
 
@@ -55,4 +55,13 @@
 برای نصب اسکریپت، کافیست با دسترسی **Root** یا **Sudo** وارد ترمینال سرور شده و دستور زیر را اجرا کنید:
 
 ```bash
-sudo bash -c "$(curl -sL "https://raw.githubusercontent.com/YOUR_USERNAME/T.Sin/main/install.sh")"
+sudo bash -c "$(curl -sL "https://raw.githubusercontent.com/SiNaKeEn/NexusNet/Node/install.sh")"
+
+
+---
+
+🔄 نحوه اجرای مجدد منو
+در صورتی که مراحل نصب به پایان رسید یا از منوی برنامه خارج شدید، نیازی به اجرای مجدد دستور نصب نیست. برای دسترسی دوباره به منوی مدیریت ابزار، کافیست کلمه زیر را در ترمینال تایپ و اینتر کنید:
+
+nexusnet
+
