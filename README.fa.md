@@ -1,17 +1,9 @@
+[README.fa.md](https://github.com/user-attachments/files/32896119/README.fa.md)
 <div align="center" dir="rtl">
 
 **زبان:** [English](README.md) · [فارسی](README.fa.md)
 
-```
-███╗   ██╗███████╗██╗  ██╗██╗   ██╗███████╗███╗   ██╗███████╗████████╗
-████╗  ██║██╔════╝╚██╗██╔╝██║   ██║██╔════╝████╗  ██║██╔════╝╚══██╔══╝
-██╔██╗ ██║█████╗   ╚███╔╝ ██║   ██║███████╗██╔██╗ ██║█████╗     ██║
-██║╚██╗██║██╔══╝   ██╔██╗ ██║   ██║╚════██║██║╚██╗██║██╔══╝     ██║
-██║ ╚████║███████╗██╔╝ ██╗╚██████╔╝███████║██║ ╚████║███████╗   ██║
-╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝
-```
-
-# نکسوس‌نت نود
+# NexusNet Node
 
 **مدیریت چندنود Tor Exit** — یک سرور، چندین کشور خروجی.
 
@@ -23,24 +15,24 @@
 <br>
 
 **زبان برنامه‌نویسی:** Python 3  
-**پنل‌ها:** 3X-UI · پاسارگاد · مرزبان (محدود)
+**پنل‌ها:** 3X-UI · Pasargad · Marzban (limited)
 
 </div>
 
 ---
 
-## نکسوس‌نت چیست؟
+## NexusNet چیست؟
 
-نکسوس‌نت یک **VPS** را به مجموعه‌ای از **نودهای Tor Exit** تبدیل می‌کند؛ هر نود روی یک کشور خاص تنظیم می‌شود.  
-با یک دستور، این نودها به پنل شما (3X-UI / پاسارگاد) وصل می‌شوند — شامل اینباند، اوت‌باند SOCKS، روتینگ و هاست.
+NexusNet یک **VPS** را به مجموعه‌ای از **نودهای Tor Exit** تبدیل می‌کند؛ هر نود روی یک کشور خاص تنظیم می‌شود.  
+با یک دستور، این نودها به پنل شما (3X-UI / Pasargad) وصل می‌شوند — شامل inbound، outbound SOCKS، routing و host.
 
 | قابلیت | توضیح |
 |--------|------|
-| 🌍 **بیش از ۵۰ کشور** | آلمان، ترکیه، آمریکا، فرانسه، هلند، فنلاند، سوئیس و … |
-| 🔌 **Panel Tools** | کلون خودکار اینباند و هاست داخل 3X-UI / پاسارگاد |
-| 🔄 **NEWNYM** | مدار و IP خروجی جدید با هر ریستارت |
-| 💾 **بکاپ و بازگردانی** | لیست نودها و پورت‌ها در یک فایل |
-| 🧹 **حذف تمیز** | سرویس محلی **و** کانفیگ پنل با هم پاک می‌شود |
+| 🌍 **بیش از 50 کشور** | Germany, Turkey, US, France, NL, FI, CH و … |
+| 🔌 **Panel Tools** | کلون خودکار inbound و host داخل 3X-UI / Pasargad |
+| 🔄 **NEWNYM** | مدار و IP خروجی جدید با هر restart |
+| 💾 **Backup & restore** | لیست نودها و پورت‌ها در یک فایل |
+| 🧹 **Clean delete** | سرویس محلی **و** کانفیگ پنل با هم پاک می‌شود |
 
 ---
 
@@ -48,14 +40,14 @@
 
 | مورد | پیشنهاد |
 |------|---------|
-| **لوکیشن** | ترجیحاً **آلمان 🇩🇪** |
-| **CPU** | حداقل ۲ هسته |
-| **RAM** | حداقل ۴ گیگابایت |
-| **سیستم‌عامل** | Ubuntu / Debian |
-| **دسترسی** | Root (`sudo`) |
+| **Location** | ترجیحاً **Germany 🇩🇪** |
+| **CPU** | حداقل 2 هسته |
+| **RAM** | حداقل 4 گیگابایت |
+| **OS** | Ubuntu / Debian |
+| **Access** | Root (`sudo`) |
 
-> **درباره پینگ:** پینگ نهایی به مسیر شبکه کاربر از طریق Tor بستگی دارد. هرچه مسیر سازگارتر باشد، تأخیر کمتر است.  
-> **درباره IP خروجی:** در کشورهایی که Exit Node کم دارند (مثل امارات)، ممکن است همیشه یک IP ثابت ببینید. از نسخه ۱.۱۳ با هر ریستارت، سیگنال `NEWNYM` ارسال می‌شود تا در صورت وجود Exit دیگر، IP عوض شود.
+> **درباره ping:** پینگ نهایی به مسیر شبکه کاربر از طریق Tor بستگی دارد. هرچه مسیر سازگارتر باشد، تأخیر کمتر است.  
+> **درباره Exit IP:** در کشورهایی که Exit Node کم دارند (مثل AE)، ممکن است همیشه یک IP ثابت ببینید. از نسخه 1.13 با هر restart، سیگنال `NEWNYM` ارسال می‌شود تا در صورت وجود Exit دیگر، IP عوض شود.
 
 ---
 
@@ -83,28 +75,28 @@ nexusnet
 
 | # | عملیات |
 |---|--------|
-| 1 | نصب موتور (وابستگی‌ها) |
-| 2 | آپدیت سیستم |
-| 3 | حذف کامل سیستم |
-| 4 | افزودن یک لوکیشن |
-| 5 | افزودن گروهی نودها |
-| 6 | مشاهده نودهای فعال |
-| 7 | ویرایش / حذف نود (+ پاک‌سازی پنل) |
-| 8 | تنظیمات پورت |
-| 9 | بررسی تأخیر نودها |
-| 10 | ریستارت همه نودها (+ درخواست IP/مدار جدید) |
-| 11 | لیست پورت‌های فعال |
-| 12 | تست سریع کشور |
-| 13 | حذف همه نودها |
-| 14 | وضعیت سیستم |
-| 15 | بکاپ / بازگردانی |
-| 16 | **Panel Tools** (3X-UI / پاسارگاد) |
+| 1 | Install engine (dependencies) |
+| 2 | Update system |
+| 3 | Full uninstall |
+| 4 | Add one location |
+| 5 | Bulk deploy nodes |
+| 6 | List active nodes |
+| 7 | Edit / delete node (+ panel cleanup) |
+| 8 | Port settings |
+| 9 | Latency check |
+| 10 | Restart all nodes (+ NEWNYM) |
+| 11 | Active ports |
+| 12 | Quick country test |
+| 13 | Delete all nodes |
+| 14 | System status |
+| 15 | Backup / restore |
+| 16 | **Panel Tools** (3X-UI / Pasargad) |
 
 ### Panel Tools
 
 ```
 ── Create ──
-  [1] Add installed NexusNet nodes     ← کار اصلی
+  [1] Add installed NexusNet nodes     ← primary workflow
   [2] Create all countries
   [3] Create selected countries
 
@@ -113,32 +105,33 @@ nexusnet
   [0] Exit
 ```
 
-**حالت‌های Host address** (هنگام کلون هاست در پاسارگاد):
+**حالت‌های Host address** (هنگام کلون host در Pasargad):
 
-1. نگه‌داشتن آدرس/دامنه منبع  
-2. IP عمومی سرور  
-3. **IP خروجی تور هر نود** *(پیش‌فرض)* — ترکیه IP ترکیه، آمریکا IP آمریکا و …  
-4. آدرس دستی  
+1. Keep source domain/address *(recommended)*  
+2. Server public IP  
+3. Custom address  
+
+> **توجه:** آدرس host باید همان آدرسی باشد که **کلاینت به سرور شما وصل می‌شود** (دامنه یا IP خود VPS).
 
 ---
 
-## استک فنی
+## Tech stack
 
 | لایه | تکنولوژی |
 |------|----------|
-| هسته | **Python 3** |
-| شبکه | Tor، SOCKS5، Xray |
-| پنل‌ها | 3X-UI (SQLite + API)، پاسارگاد (REST)، مرزبان (SOCKS دستی) |
-| نصب‌کننده | Bash + payloadهای Base64 |
+| Core | **Python 3** |
+| Networking | Tor, SOCKS5, Xray |
+| Panels | 3X-UI (SQLite + API), Pasargad (REST), Marzban (manual SOCKS) |
+| Installer | Bash + embedded Base64 payloads |
 
 ---
 
-## بکاپ و بازگردانی
+## Backup & restore
 
-- **بکاپ:** `/root/nexusnet_backup.txt` (نودها + پورت‌ها)  
-- **بازگردانی:** نودهای موجود در فایل که روی سرور نیستند دوباره ساخته می‌شوند  
+- **Backup:** `/root/nexusnet_backup.txt` (nodes + ports)  
+- **Restore:** نودهای موجود در فایل که روی سرور نیستند دوباره ساخته می‌شوند  
 
-با حذف نود از گزینه **۷**، اینباند / اوت‌باند / روتینگ / هاست مربوط در **3X-UI** و **پاسارگاد** هم تا حد امکان پاک می‌شود.
+با حذف نود از گزینه **7**، inbound / outbound / routing / host مربوط در **3X-UI** و **Pasargad** هم تا حد امکان پاک می‌شود.
 
 ---
 
@@ -146,15 +139,15 @@ nexusnet
 
 | کانال | لینک |
 |-------|------|
-| کانال تلگرام | [@NexusNet_Plus](https://t.me/NexusNet_Plus) |
-| ربات تلگرام | [@NexusNet_PlusBot](https://t.me/NexusNet_PlusBot) |
-| پشتیبانی | [@NexusNet_Sup](https://t.me/NexusNet_Sup) |
+| Telegram channel | [@NexusNet_Plus](https://t.me/NexusNet_Plus) |
+| Telegram bot | [@NexusNet_PlusBot](https://t.me/NexusNet_PlusBot) |
+| Support | [@NexusNet_Sup](https://t.me/NexusNet_Sup) |
 
 ---
 
 <div align="center" dir="rtl">
 
-**بر پایه ایده T.Sin** · توسعه توسط **SiNa (KeEn)**
+**Based on the T.Sin idea** · Developed by **SiNa (KeEn)**
 
 `nexusnet` · v2.1 · Personal Edition
 
