@@ -1,4 +1,3 @@
-[README.fa.md](https://github.com/user-attachments/files/32896119/README.fa.md)
 <div align="center" dir="rtl">
 
 **زبان:** [English](README.md) · [فارسی](README.fa.md)
