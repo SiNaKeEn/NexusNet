@@ -1,3 +1,4 @@
+[README.md](https://github.com/user-attachments/files/32896100/README.md)
 <div align="center">
 
 **Language:** [English](README.md) · [فارسی](README.fa.md)
@@ -115,10 +116,11 @@ nexusnet
 
 **Host address modes** (when cloning hosts in Pasargad):
 
-1. Keep source domain/address  
+1. Keep source domain/address *(recommended)*  
 2. Server public IP  
-3. **Each node's own Tor exit IP** *(default)* — TR gets a Turkey IP, US gets a US IP, …  
-4. Custom address  
+3. Custom address  
+
+> **Important:** Host address is what **clients connect to** (your domain or VPS IP).  
 
 ---
 
