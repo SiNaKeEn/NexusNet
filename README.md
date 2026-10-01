@@ -5,7 +5,7 @@
 
 ابزار مدیریت چند نود **Tor Exit** روی یک سرور — با انتخاب کشور خروجی، اتصال به پنل‌های **3X-UI** و **پاسارگاد**، و منوی فارسی/انگلیسی ساده.
 
-**نسخه فعلی: v2.0**
+**نسخه فعلی: v2.1**
 
 ---
 
@@ -31,7 +31,7 @@
 با دسترسی Root در ترمینال:
 
 ```bash
-curl -sL "https://raw.githubusercontent.com/SiNaKeEn/NexusNet/Multi-Node/install.sh" -o /tmp/install.sh && sudo bash /tmp/install.sh
+curl -sL "https://raw.githubusercontent.com/SiNaKeEn/NexusNet-Node/Multi/install.sh" -o /tmp/install.sh && sudo bash /tmp/install.sh
 ```
 
 > اگر خطای `Argument list too long` دیدید، حتماً از دستور بالا استفاده کنید (اول دانلود، بعد اجرا). از `bash -c "$(curl ...)"` برای این فایل استفاده نکنید.
