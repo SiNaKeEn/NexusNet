@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/32894669/README.md)
 <div align="center">
 
 **Language:** [English](README.md) · [فارسی](README.fa.md)
