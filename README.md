@@ -1,7 +1,5 @@
 <div align="center">
 
-**Language:** [English](README.md) · [فارسی](README.fa.md)
-
 # NexusNet Node
 
 **Multi-country Tor Exit node manager** — one VPS, many exit locations.
